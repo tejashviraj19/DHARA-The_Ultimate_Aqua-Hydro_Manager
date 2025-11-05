@@ -99,7 +99,7 @@ DHARA empowers small-scale growers, students, and innovators to adopt **eco-inte
 
 | Hybrid System Setup | DHARA Control Unit | IoT Dashboard |
 |:-------------------:|:------------------:|:--------------:|
-| ![Hybrid Farm](path/to/hybrid_system_image.png) | ![Control Box](path/to/dhara_control_unit.png) | ![Dashboard](path/to/ubidots_dashboard.png) |
+| ![Hybrid Farm]([path/to/hybrid_system_image.png](https://github.com/tejashviraj19/DHARA-The_Ultimate_Aqua-Hydro_Manager/blob/main/DHARA%20Control%20Unit.png)) | ![Control Box]([path/to/dhara_control_unit.png](https://github.com/tejashviraj19/DHARA-The_Ultimate_Aqua-Hydro_Manager/blob/main/DHARA%20Control%20Unit.png)) | ![Dashboard]([path/to/ubidots_dashboard.png](https://github.com/tejashviraj19/DHARA-The_Ultimate_Aqua-Hydro_Manager/blob/main/IoT%20Dashboard.png)) |
 
 ---
 
