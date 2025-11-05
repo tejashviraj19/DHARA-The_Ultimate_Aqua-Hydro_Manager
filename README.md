@@ -117,6 +117,6 @@ Reach out via [LinkedIn](#) or open an issue on this repository — let’s buil
 ---
 
 ### 💚 Developed by:
-**Tejashvi Raj** 
-**Rishabh Kumar**  
-**Karan Gandha** 
+**Tejashvi Raj**  
+****Rishabh Kumar**  
+**Karan Gandha**
