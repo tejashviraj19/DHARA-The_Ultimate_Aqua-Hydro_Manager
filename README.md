@@ -1,96 +1,122 @@
-# 🌿 DHARA: The Ultimate Hydro Manager 🌊🐟
+# 🌿 DHARA: The Ultimate Aqua–Hydro Manager 🌊🐟  
+> **Smart. Sustainable. Self-Regulating.**  
 
-> **Smart. Sustainable. Symbiotic.**
-
-**DHARA** is a fully functional, smart IoT-based solution for monitoring and automating hydroponic farms using real-time environmental data. Designed with sustainability and accessibility at its core, DHARA integrates **fish and plant farming**, supports **2G networks**, and includes **SMS-based chatbot** communication and an upcoming **Android application**. 🌱📡📲
-
----
-
-## 🌎 Why DHARA?
-
-Traditional agriculture heavily relies on synthetic chemicals and water-intensive methods, resulting in environmental degradation and poor long-term sustainability. ❌🌾
-
-While hydroponics offers a cleaner alternative, most systems focus only on plant growth. DHARA innovates by fusing **hydroponics and aquaponics** into a **smart, self-sustaining ecosystem** — suitable for both rural and urban settings. 🏞️🏙️
+**DHARA** (*Dynamic Hydro–Aqua Resource Automation*) is a next-generation **IoT-based hybrid farming system** that combines the best of **hydroponics and aquaponics** into a single, self-sustaining ecosystem.  
+It automates water quality management, nutrient balancing, and environmental monitoring for both **fish and plants**, creating an intelligent, circular farming model designed for the future of sustainable agriculture. 🌱🐠⚙️  
 
 ---
 
-## ✨ Key Features
+## 🌍 Why DHARA?  
 
-### 🐟 Integrated Aquaponics
-- Simultaneous cultivation of **plants and fish**
-- Fish waste serves as **natural fertilizer**
-- Plants act as **biofilters** for water reuse
-- Efficient, productive, and circular ecosystem ♻️
+Modern agriculture depends heavily on water-intensive and chemical-based methods that harm soil and ecosystems.  
+Hydroponics and aquaponics have emerged as cleaner alternatives, yet most systems work independently — focusing on either fish or plants.  
 
----
-
-### 📡 Real-Time Sensor Monitoring
-- Continuous tracking of:
-  - 🌡️ **Humidity**
-  - ⚗️ **pH**
-  - 🧪 **TDS (Total Dissolved Solids)**
-- Immediate alerts for abnormal conditions
-- Better yield through data-driven decisions ⚠️📈
+**DHARA** bridges this gap by integrating both ecosystems into a **single monitored loop** powered by **IoT automation**.  
+It continuously tracks vital parameters, automatically maintains balance, and provides a **smart dashboard interface** for farmers to monitor, control, and optimize operations in real time. 💧📡  
 
 ---
 
-### 📲 SMS Chatbot + Android App
-- **Works even on 2G networks** 🚦
-- Farmers can interact via **SMS chatbot** (no need for internet)
-- Android app (in development) offers a richer dashboard and control interface 📱
-- Brings smart farming to **low-connectivity rural areas**
+## ✨ Key Features  
+
+### 🧪 Hybrid Aquaponic–Hydroponic Ecosystem  
+- Combines **fish farming (aquaponics)** and **soilless plant cultivation (hydroponics)**.  
+- Fish waste enriches plant nutrients, while plants purify the water.  
+- Enables a **closed-loop, sustainable cycle** requiring minimal manual intervention.  
 
 ---
 
-### 💧 Resource-Efficient Farming
-- Lower water usage 💦
-- No synthetic fertilizers ❌
-- Reduces carbon and chemical footprint 🌍
-- Scalable for home use, rooftop gardens, or small farms
+### 📊 Real-Time IoT Monitoring (via Ubidots Dashboard)  
+- Live tracking of:  
+  - ⚗️ **pH Level**  
+  - 🧪 **TDS (Total Dissolved Solids)**  
+  - 🌫️ **Turbidity**  
+  - 🌡️ **Temperature & Humidity**  
+- Automatic alerts for abnormal readings.  
+- User can set **custom min–max thresholds** for each parameter directly from the dashboard.  
+- Data visualization through gauges, indicators, and real-time graphs.  
 
 ---
 
-### 🤖 ML-Powered Automation
-- Real-time decision making using **machine learning models** 🧠
-- Automated response system (e.g., adjusting water flow, nutrient mix, or alerting user)
-- Improves efficiency and crop/fish health over time 🌾🐟
+### ⚙️ Automated Pump Control (Relay Logic)  
+- Four independent pumps controlled via a **4-channel relay module**:  
+  1. **Acid Pump** – activates when pH > threshold  
+  2. **Base Pump** – activates when pH < threshold  
+  3. **Nutrient Pump** – triggers automatically every 12 hours for 30 seconds  
+  4. **Drain Pump** – user-controlled via dashboard  
+- Ensures water and nutrient balance with minimal human intervention.  
 
 ---
 
-## 🎯 Project Highlights
-
-- ✔️ **Operational and Tested**
-- ✔️ Designed for **low-bandwidth environments**
-- ✔️ Integrates **hardware, software, and intelligence**
-- ✔️ Combines **eco-conscious design** with modern tech
-
----
-
-## 🛠️ Tech Stack
-
-- 🔌 **Arduino**
-- 💻 **Arduino IDE**
-- 🧪 **pH, TDS, Humidity sensors**
-- 📡 **IoT logic + Microcontroller integration**
-- ✉️ **SMS chatbot (GSM module)**
-- 📲 **Android application** (in development)
-- 🧠 **ML models for automation**
+### 💧 Sustainable and Resource-Efficient Design  
+- Up to **70% water savings** compared to soil farming.  
+- No synthetic fertilizers — uses **organic nutrients** like Seaweed Extract, Worm Tea, and Iron Chelate.  
+- Reuses fish waste to sustain plant growth.  
+- Powered by a **5V portable power bank**, making it compact and energy efficient.  
 
 ---
 
-## 🚀 How to Support / Contribute
+## 💻 Technology Stack  
 
-Love what DHARA is solving for? 💚
-
-- ⭐ **Star** the repo to show support  
-- 🍴 **Fork** to experiment or extend  
-- 📢 **Share** with someone into AgriTech  
-- 🛠️ **Open issues or contribute code** — we welcome collaborators!
+| Component | Description |
+|------------|-------------|
+| **Microcontrollers** | Arduino Uno (pH sensing) + ESP32 (IoT & Automation) |
+| **Sensors** | pH, TDS, Turbidity, DHT11 (Temp & Humidity) |
+| **Actuators** | 4-Channel Relay Module controlling acid, base, nutrient & drain pumps |
+| **Display** | 16x2 I²C LCD for real-time readings |
+| **Software** | Arduino IDE, ArduinoJson library |
+| **IoT Platform** | Ubidots STEM Dashboard |
+| **Power Supply** | 5V USB Power Bank |
 
 ---
 
-## 📫 Connect
+## 🧭 Core Highlights  
 
-Have ideas, suggestions, or just want to connect?
+- ✅ Hybrid Aqua–Hydro system supporting **user-defined fish–plant combinations**.  
+- ✅ Automatic nutrient spraying and pH regulation.  
+- ✅ Real-time dashboard monitoring and alert system.  
+- ✅ Modular, compact, and scalable design.  
+- ✅ Ideal for urban rooftop farming, academic research, and sustainable agri-labs.  
 
-Feel free to reach out via [LinkedIn](#) or open an issue here on GitHub. Let’s grow the future of agriculture together! 🤝🌱
+---
+
+## 💡 Vision  
+
+To create a future where **technology sustains nature** — where data-driven farming makes food production more efficient, clean, and accessible to everyone.  
+DHARA empowers small-scale growers, students, and innovators to adopt **eco-intelligent automation** for sustainable farming. 🌍🌱  
+
+---
+
+## 🛠️ Future Upgrades  
+
+- 🤖 **Machine Learning Integration:** Predictive maintenance and adaptive nutrient dosing.  
+- 📱 **Mobile Application:** Real-time Android app for monitoring and control.  
+- ☀️ **Solar Integration:** Full off-grid operation using renewable energy.  
+- 🌊 **Expanded Sensor Suite:** Adding dissolved oxygen (DO) and EC sensors for deeper analysis.  
+
+---
+
+## 📷 Project Snapshots  
+
+| Hybrid System Setup | DHARA Control Unit | IoT Dashboard |
+|:-------------------:|:------------------:|:--------------:|
+| ![Hybrid Farm](path/to/hybrid_system_image.png) | ![Control Box](path/to/dhara_control_unit.png) | ![Dashboard](path/to/ubidots_dashboard.png) |
+
+---
+
+## 🧩 System Overview  
+
+**Sensor Inputs → Arduino (pH) + ESP32 (TDS, Temp, Humidity, Turbidity) → Relay Control → Pumps → Ubidots Dashboard (Monitor & Alerts)**  
+
+---
+
+## 📫 Connect  
+
+💬 Have ideas, suggestions, or want to collaborate?  
+Reach out via [LinkedIn](#) or open an issue on this repository — let’s build the future of sustainable farming together. 🌿🤝  
+
+---
+
+### 💚 Developed by:
+**Tejashvi Raj** *(22BEC10029)*  
+Under the guidance of **Dr. Amit Kumar Singh**,  
+**VIT Bhopal University** 🎓  
