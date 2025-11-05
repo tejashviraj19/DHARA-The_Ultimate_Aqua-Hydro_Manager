@@ -117,6 +117,6 @@ Reach out via [LinkedIn](#) or open an issue on this repository — let’s buil
 ---
 
 ### 💚 Developed by:
-**Tejashvi Raj** *(22BEC10029)*  
-Under the guidance of **Dr. Amit Kumar Singh**,  
-**VIT Bhopal University** 🎓  
+**Tejashvi Raj**
+**Rishabh Kumar**
+**Karan Gandha**
