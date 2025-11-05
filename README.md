@@ -112,7 +112,7 @@ DHARA empowers small-scale growers, students, and innovators to adopt **eco-inte
 ## 📫 Connect  
 
 💬 Have ideas, suggestions, or want to collaborate?  
-Reach out via [LinkedIn](#https://www.linkedin.com/in/tejashvi-raj-918942251/) or open an issue on this repository — let’s build the future of sustainable farming together. 🌿🤝  
+Reach out via [LinkedIn](https://www.linkedin.com/in/tejashvi-raj-918942251/) or open an issue on this repository — let’s build the future of sustainable farming together. 🌿🤝  
 
 ---
 
